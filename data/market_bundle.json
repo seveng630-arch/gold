@@ -1,8 +1,8 @@
 {
   "meta": {
     "brand": "DELANOGOLD",
-    "generated_at_wib": "2026-11-15 17:27:47 WIB",
-    "timestamp_unix": 1794738467
+    "generated_at_wib": "2026-11-15 17:29:33 WIB",
+    "timestamp_unix": 1794738573
   },
   "gold_spot": {
     "xau_usd": 3886.3,
@@ -29,7 +29,7 @@
     },
     "source": "PT Antam Tbk (Logam Mulia)",
     "status": "FALLBACK_ESTIMATE",
-    "updated_at": "2026-11-15T17:27:47.240418+07:00"
+    "updated_at": "2026-11-15T17:29:33.617546+07:00"
   },
   "indonesia_economy": {
     "ihsg": {
