@@ -1,35 +1,35 @@
 {
   "meta": {
     "brand": "DELANOGOLD",
-    "generated_at_wib": "2026-11-16 18:09:16 WIB",
-    "timestamp_unix": 1794827356
+    "generated_at_wib": "2026-11-16 23:20:36 WIB",
+    "timestamp_unix": 1794846036
   },
   "gold_spot": {
-    "xau_usd": 3875.5,
-    "change_pct": -0.28,
+    "xau_usd": 3863.7,
+    "change_pct": -0.58,
     "trend_status": "BEARISH",
-    "spot_idr_gram": 2270450.0,
+    "spot_idr_gram": 2263537.0,
     "source": "COMEX / Yahoo Finance (GC=F)"
   },
   "antam": {
-    "sell_1g": 2434000,
-    "buyback_1g": 2244000,
-    "spot_idr_gram": 2270450.0,
-    "premium_vs_spot_pct": 7.2,
-    "spread_rp": 190000,
-    "spread_pct": 7.81,
+    "sell_1g": 2427000,
+    "buyback_1g": 2238000,
+    "spot_idr_gram": 2263537.0,
+    "premium_vs_spot_pct": 7.22,
+    "spread_rp": 189000,
+    "spread_pct": 7.79,
     "denominations": {
-      "0.5": 1267000,
-      "1": 2434000,
-      "2": 4828000,
-      "5": 12020000,
-      "10": 23990000,
-      "100": 239200000,
-      "1000": 2389000000
+      "0.5": 1264000,
+      "1": 2427000,
+      "2": 4814000,
+      "5": 11985000,
+      "10": 23920000,
+      "100": 238500000,
+      "1000": 2382000000
     },
     "source": "PT Antam Tbk (Logam Mulia)",
     "status": "FALLBACK_ESTIMATE",
-    "updated_at": "2026-11-16T18:09:16.685355+07:00"
+    "updated_at": "2026-11-16T23:20:36.759801+07:00"
   },
   "indonesia_economy": {
     "ihsg": {
@@ -57,8 +57,8 @@
       "source": "FRED (DFII10)"
     },
     "dxy": {
-      "value": 103.55,
-      "change_pct": 0.14,
+      "value": 103.5,
+      "change_pct": 0.09,
       "source": "ICE DXY (DX-Y.NYB)"
     },
     "fed_funds_rate": {
@@ -75,11 +75,11 @@
       "date": "2026-10-01",
       "source": "FRED (CPIAUCSL)"
     },
-    "vix": 20.05,
-    "silver_usd": 47.69,
-    "gold_silver_ratio": 81.26,
-    "wti_oil_usd": 88.47,
-    "us_10y_nominal_yield": 5.15
+    "vix": 20.95,
+    "silver_usd": 46.69,
+    "gold_silver_ratio": 82.75,
+    "wti_oil_usd": 86.66,
+    "us_10y_nominal_yield": 5.13
   },
   "flows_and_positioning": {
     "cftc_cot": {
@@ -90,29 +90,29 @@
       "source": "CFTC COT Disaggregated/Legacy Report"
     },
     "etf_gld": {
-      "price": 355.45,
-      "change_pct": 0.16,
-      "volume": 11863900
+      "price": 353.53,
+      "change_pct": -0.54,
+      "volume": 4245256
     },
     "etf_iau": {
-      "price": 72.88,
-      "volume": 9019000
+      "price": 72.49,
+      "volume": 1987903
     }
   },
   "technicals": {
-    "sma50": 4169.49,
-    "sma200": 4467.8975,
+    "sma50": 4169.254,
+    "sma200": 4467.8385,
     "golden_cross": false,
-    "rsi14": 35.3407,
+    "rsi14": 34.7177,
     "macd": {
-      "line": -67.2967,
-      "signal": -58.612,
-      "histogram": -8.6848
+      "line": -68.238,
+      "signal": -58.8002,
+      "histogram": -9.4378
     },
     "bollinger": {
-      "upper": 4194.2165,
-      "middle": 4020.975,
-      "lower": 3847.7335
+      "upper": 4195.7795,
+      "middle": 4020.385,
+      "lower": 3844.9904
     },
     "atr14_usd": 97.6429,
     "atr14_idr_gram": 57204.0,
@@ -134,43 +134,43 @@
       "Agu": 2.77,
       "Sep": -1.91,
       "Okt": 0.64,
-      "Nov": 1.62,
+      "Nov": 1.58,
       "Des": 2.79
     }
   },
   "quantitative": {
     "rolling_correlation": {
       "30d": {
-        "dxy": -0.416,
-        "us10y": -0.216,
+        "dxy": -0.417,
+        "us10y": -0.213,
         "ihsg": -0.074,
-        "usdidr": 0.313
+        "usdidr": 0.311
       },
       "90d": {
         "dxy": -0.461,
-        "us10y": -0.239,
+        "us10y": -0.237,
         "ihsg": 0.052,
-        "usdidr": 0.087
+        "usdidr": 0.084
       }
     },
     "idr_gold_decomposition": {
       "30d": {
-        "total_idr_pct": -5.57,
-        "world_gold_pct": -7.44,
-        "usdidr_pct": 2.02,
-        "share_from_world_gold_pct": 135.0,
-        "share_from_rupiah_pct": -35.0
+        "total_idr_pct": -6.5,
+        "world_gold_pct": -7.72,
+        "usdidr_pct": 1.33,
+        "share_from_world_gold_pct": 119.7,
+        "share_from_rupiah_pct": -19.7
       },
       "90d": {
-        "total_idr_pct": -4.04,
-        "world_gold_pct": -4.77,
-        "usdidr_pct": 0.77,
-        "share_from_world_gold_pct": 118.5,
-        "share_from_rupiah_pct": -18.5
+        "total_idr_pct": -4.98,
+        "world_gold_pct": -5.06,
+        "usdidr_pct": 0.08,
+        "share_from_world_gold_pct": 101.6,
+        "share_from_rupiah_pct": -1.6
       }
     },
     "sentiment_model": {
-      "score": 43.6,
+      "score": 41.9,
       "weights": {
         "real_yield_10y": "30%",
         "dxy_momentum": "25%",
@@ -181,33 +181,33 @@
       "backtest_20d_win_rate_pct": 69.2
     },
     "monte_carlo_forecast": {
-      "annualized_volatility_pct": 23.54,
+      "annualized_volatility_pct": 23.56,
       "horizon_7d": {
         "days": 7,
-        "bear_p10_idr_gram": 2156695.0,
-        "base_p50_idr_gram": 2268591.0,
-        "bull_p90_idr_gram": 2382414.0,
-        "bear_p10_usd": 3675.66,
-        "base_p50_usd": 3866.36,
-        "bull_p90_usd": 4060.35
+        "bear_p10_idr_gram": 2135239.0,
+        "base_p50_idr_gram": 2246124.0,
+        "bull_p90_idr_gram": 2358922.0,
+        "bear_p10_usd": 3663.98,
+        "base_p50_usd": 3854.26,
+        "bull_p90_usd": 4047.81
       },
       "horizon_30d": {
         "days": 30,
-        "bear_p10_idr_gram": 2007147.0,
-        "base_p50_idr_gram": 2240740.0,
-        "bull_p90_idr_gram": 2478916.0,
-        "bear_p10_usd": 3420.78,
-        "base_p50_usd": 3818.89,
-        "bull_p90_usd": 4224.82
+        "bear_p10_idr_gram": 1986505.0,
+        "base_p50_idr_gram": 2217913.0,
+        "bull_p90_idr_gram": 2453885.0,
+        "bear_p10_usd": 3408.76,
+        "base_p50_usd": 3805.85,
+        "bull_p90_usd": 4210.77
       },
       "horizon_180d": {
         "days": 180,
-        "bear_p10_idr_gram": 1653705.0,
-        "base_p50_idr_gram": 2142263.0,
-        "bull_p90_idr_gram": 2767075.0,
-        "bear_p10_usd": 2818.41,
-        "base_p50_usd": 3651.06,
-        "bull_p90_usd": 4715.93
+        "bear_p10_idr_gram": 1633481.0,
+        "base_p50_idr_gram": 2116552.0,
+        "bull_p90_idr_gram": 2734490.0,
+        "bear_p10_usd": 2802.99,
+        "base_p50_usd": 3631.92,
+        "bull_p90_usd": 4692.27
       }
     }
   },
@@ -1649,8 +1649,8 @@
       "open": 3869.7,
       "high": 3904.3,
       "low": 3835.2,
-      "close": 3875.5,
-      "idr_gram": 2273954.0
+      "close": 3863.7,
+      "idr_gram": 2251627.0
     }
   ],
   "economic_calendar": [
