@@ -1,40 +1,40 @@
 {
   "meta": {
     "brand": "DELANOGOLD",
-    "generated_at_wib": "2026-11-17 14:50:15 WIB",
-    "timestamp_unix": 1794901815
+    "generated_at_wib": "2026-11-17 17:52:59 WIB",
+    "timestamp_unix": 1794912779
   },
   "gold_spot": {
-    "xau_usd": 3876.6,
-    "change_pct": 0.61,
+    "xau_usd": 3861.4,
+    "change_pct": 0.22,
     "trend_status": "BULLISH",
-    "spot_idr_gram": 2277492.0,
+    "spot_idr_gram": 2268562.0,
     "source": "COMEX / Yahoo Finance (GC=F)"
   },
   "antam": {
-    "sell_1g": 2441000,
-    "buyback_1g": 2251000,
-    "spot_idr_gram": 2277492.0,
-    "premium_vs_spot_pct": 7.18,
+    "sell_1g": 2432000,
+    "buyback_1g": 2242000,
+    "spot_idr_gram": 2268562.0,
+    "premium_vs_spot_pct": 7.2,
     "spread_rp": 190000,
-    "spread_pct": 7.78,
+    "spread_pct": 7.81,
     "denominations": {
-      "0.5": 1270000,
-      "1": 2441000,
-      "2": 4842000,
-      "5": 12055000,
-      "10": 24060000,
-      "100": 239900000,
-      "1000": 2396000000
+      "0.5": 1266000,
+      "1": 2432000,
+      "2": 4824000,
+      "5": 12010000,
+      "10": 23970000,
+      "100": 239000000,
+      "1000": 2387000000
     },
     "source": "PT Antam Tbk (Logam Mulia)",
     "status": "FALLBACK_ESTIMATE",
-    "updated_at": "2026-11-17T14:50:15.156863+07:00"
+    "updated_at": "2026-11-17T17:52:59.152944+07:00"
   },
   "indonesia_economy": {
     "ihsg": {
-      "value": 5326.19,
-      "change_pct": 0.1,
+      "value": 5304.75,
+      "change_pct": -0.3,
       "source": "BEI / Yahoo Finance (^JKSE)"
     },
     "bi_rate_pct": 6.0,
@@ -57,8 +57,8 @@
       "source": "FRED (DFII10)"
     },
     "dxy": {
-      "value": 103.53,
-      "change_pct": -0.02,
+      "value": 103.58,
+      "change_pct": 0.03,
       "source": "ICE DXY (DX-Y.NYB)"
     },
     "fed_funds_rate": {
@@ -75,10 +75,10 @@
       "date": "2026-10-01",
       "source": "FRED (CPIAUCSL)"
     },
-    "vix": 22.91,
-    "silver_usd": 47.44,
-    "gold_silver_ratio": 81.72,
-    "wti_oil_usd": 85.37,
+    "vix": 23.55,
+    "silver_usd": 47.38,
+    "gold_silver_ratio": 81.49,
+    "wti_oil_usd": 85.77,
     "us_10y_nominal_yield": 5.12
   },
   "flows_and_positioning": {
@@ -100,22 +100,22 @@
     }
   },
   "technicals": {
-    "sma50": 4157.792,
-    "sma200": 4463.905,
+    "sma50": 4157.488,
+    "sma200": 4463.829,
     "golden_cross": false,
-    "rsi14": 36.5429,
+    "rsi14": 35.0356,
     "macd": {
-      "line": -72.182,
-      "signal": -61.6131,
-      "histogram": -10.5688
+      "line": -73.3945,
+      "signal": -61.8556,
+      "histogram": -11.5389
     },
     "bollinger": {
-      "upper": 4185.1424,
-      "middle": 4006.55,
-      "lower": 3827.9576
+      "upper": 4186.8235,
+      "middle": 4005.79,
+      "lower": 3824.7564
     },
-    "atr14_usd": 96.4571,
-    "atr14_idr_gram": 56668.0,
+    "atr14_usd": 96.45,
+    "atr14_idr_gram": 56664.0,
     "pivots_usd": {
       "s2": 3795.0666,
       "s1": 3824.0333,
@@ -134,43 +134,43 @@
       "Agu": 2.77,
       "Sep": -1.91,
       "Okt": 0.64,
-      "Nov": 1.62,
+      "Nov": 1.58,
       "Des": 2.79
     }
   },
   "quantitative": {
     "rolling_correlation": {
       "30d": {
-        "dxy": -0.406,
-        "us10y": -0.194,
-        "ihsg": -0.084,
-        "usdidr": 0.286
+        "dxy": -0.404,
+        "us10y": -0.195,
+        "ihsg": -0.088,
+        "usdidr": 0.287
       },
       "90d": {
         "dxy": -0.453,
         "us10y": -0.227,
         "ihsg": 0.052,
-        "usdidr": 0.068
+        "usdidr": 0.067
       }
     },
     "idr_gold_decomposition": {
       "30d": {
-        "total_idr_pct": -4.17,
-        "world_gold_pct": -6.38,
-        "usdidr_pct": 2.36,
-        "share_from_world_gold_pct": 154.8,
-        "share_from_rupiah_pct": -54.8
+        "total_idr_pct": -4.6,
+        "world_gold_pct": -6.75,
+        "usdidr_pct": 2.31,
+        "share_from_world_gold_pct": 148.4,
+        "share_from_rupiah_pct": -48.4
       },
       "90d": {
-        "total_idr_pct": -3.83,
-        "world_gold_pct": -4.32,
-        "usdidr_pct": 0.51,
-        "share_from_world_gold_pct": 113.1,
-        "share_from_rupiah_pct": -13.1
+        "total_idr_pct": -4.26,
+        "world_gold_pct": -4.7,
+        "usdidr_pct": 0.46,
+        "share_from_world_gold_pct": 110.5,
+        "share_from_rupiah_pct": -10.5
       }
     },
     "sentiment_model": {
-      "score": 44.3,
+      "score": 44.0,
       "weights": {
         "real_yield_10y": "30%",
         "dxy_momentum": "25%",
@@ -181,33 +181,33 @@
       "backtest_20d_win_rate_pct": 69.2
     },
     "monte_carlo_forecast": {
-      "annualized_volatility_pct": 23.2,
+      "annualized_volatility_pct": 23.01,
       "horizon_7d": {
         "days": 7,
-        "bear_p10_idr_gram": 2158551.0,
-        "base_p50_idr_gram": 2268912.0,
-        "bull_p90_idr_gram": 2381093.0,
-        "bear_p10_usd": 3678.82,
-        "base_p50_usd": 3866.91,
-        "bull_p90_usd": 4058.1
+        "bear_p10_idr_gram": 2149580.0,
+        "base_p50_idr_gram": 2258554.0,
+        "bull_p90_idr_gram": 2369281.0,
+        "bear_p10_usd": 3665.54,
+        "base_p50_usd": 3851.36,
+        "bull_p90_usd": 4040.18
       },
       "horizon_30d": {
         "days": 30,
-        "bear_p10_idr_gram": 2009764.0,
-        "base_p50_idr_gram": 2240155.0,
-        "bull_p90_idr_gram": 2474714.0,
-        "bear_p10_usd": 3425.24,
-        "base_p50_usd": 3817.9,
-        "bull_p90_usd": 4217.66
+        "bear_p10_idr_gram": 2001804.0,
+        "base_p50_idr_gram": 2229287.0,
+        "bull_p90_idr_gram": 2460689.0,
+        "bear_p10_usd": 3413.54,
+        "base_p50_usd": 3801.46,
+        "bull_p90_usd": 4196.05
       },
       "horizon_180d": {
         "days": 180,
-        "bear_p10_idr_gram": 1654177.0,
-        "base_p50_idr_gram": 2135006.0,
-        "bull_p90_idr_gram": 2747690.0,
-        "bear_p10_usd": 2819.21,
-        "base_p50_usd": 3638.69,
-        "bull_p90_usd": 4682.89
+        "bear_p10_idr_gram": 1646051.0,
+        "base_p50_idr_gram": 2120056.0,
+        "bull_p90_idr_gram": 2722785.0,
+        "bear_p10_usd": 2806.9,
+        "base_p50_usd": 3615.19,
+        "bull_p90_usd": 4642.99
       }
     }
   },
@@ -1647,10 +1647,10 @@
     {
       "date": "2026-11-17",
       "open": 3859.5,
-      "high": 3889.6,
+      "high": 3889.5,
       "low": 3845.9,
-      "close": 3876.6,
-      "idr_gram": 2274599.0
+      "close": 3861.4,
+      "idr_gram": 2264439.0
     }
   ],
   "economic_calendar": [
@@ -1676,6 +1676,12 @@
     }
   ],
   "gold_news": [
+    {
+      "title": "Rupiah Berbalik Menguat, Dolar AS Turun Tipis Jadi Rp18.240",
+      "link": "https://www.cnbcindonesia.com/market/20261117150543-17-786000/rupiah-berbalik-menguat-dolar-as-turun-tipis-jadi-rp18240",
+      "published": "Tue, 17 Nov 2026 15:09:08 +0700",
+      "source": "CNBC Indonesia"
+    },
     {
       "title": "Video: Pengusaha Perhiasan Emas Dukung Bea Keluar Emas, Kenapa?",
       "link": "https://www.cnbcindonesia.com/market/20261117104123-19-785884/video-pengusaha-perhiasan-emas-dukung-bea-keluar-emas-kenapa",
