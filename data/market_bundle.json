@@ -1,40 +1,40 @@
 {
   "meta": {
     "brand": "DELANOGOLD",
-    "generated_at_wib": "2026-11-18 14:48:26 WIB",
-    "timestamp_unix": 1794988106
+    "generated_at_wib": "2026-11-18 17:53:21 WIB",
+    "timestamp_unix": 1794999201
   },
   "gold_spot": {
-    "xau_usd": 3770.0,
-    "change_pct": -2.44,
+    "xau_usd": 3771.2,
+    "change_pct": -2.41,
     "trend_status": "BEARISH",
-    "spot_idr_gram": 2215470.0,
+    "spot_idr_gram": 2216175.0,
     "source": "COMEX / Yahoo Finance (GC=F)"
   },
   "antam": {
-    "sell_1g": 2375000,
-    "buyback_1g": 2190000,
-    "spot_idr_gram": 2215470.0,
-    "premium_vs_spot_pct": 7.2,
+    "sell_1g": 2376000,
+    "buyback_1g": 2191000,
+    "spot_idr_gram": 2216175.0,
+    "premium_vs_spot_pct": 7.21,
     "spread_rp": 185000,
     "spread_pct": 7.79,
     "denominations": {
       "0.5": 1238000,
-      "1": 2375000,
-      "2": 4710000,
-      "5": 11725000,
-      "10": 23400000,
-      "100": 233300000,
-      "1000": 2330000000
+      "1": 2376000,
+      "2": 4712000,
+      "5": 11730000,
+      "10": 23410000,
+      "100": 233400000,
+      "1000": 2331000000
     },
     "source": "PT Antam Tbk (Logam Mulia)",
     "status": "FALLBACK_ESTIMATE",
-    "updated_at": "2026-11-18T14:48:26.824611+07:00"
+    "updated_at": "2026-11-18T17:53:21.115295+07:00"
   },
   "indonesia_economy": {
     "ihsg": {
-      "value": 5337.61,
-      "change_pct": 0.62,
+      "value": 5247.88,
+      "change_pct": -1.07,
       "source": "BEI / Yahoo Finance (^JKSE)"
     },
     "bi_rate_pct": 6.0,
@@ -57,8 +57,8 @@
       "source": "FRED (DFII10)"
     },
     "dxy": {
-      "value": 103.74,
-      "change_pct": 0.24,
+      "value": 103.77,
+      "change_pct": 0.27,
       "source": "ICE DXY (DX-Y.NYB)"
     },
     "fed_funds_rate": {
@@ -75,10 +75,10 @@
       "date": "2026-10-01",
       "source": "FRED (CPIAUCSL)"
     },
-    "vix": 25.46,
-    "silver_usd": 45.78,
-    "gold_silver_ratio": 82.34,
-    "wti_oil_usd": 84.1,
+    "vix": 23.65,
+    "silver_usd": 45.7,
+    "gold_silver_ratio": 82.52,
+    "wti_oil_usd": 83.37,
     "us_10y_nominal_yield": 5.1
   },
   "flows_and_positioning": {
@@ -100,22 +100,22 @@
     }
   },
   "technicals": {
-    "sma50": 4143.73,
-    "sma200": 4458.018,
+    "sma50": 4143.754,
+    "sma200": 4458.024,
     "golden_cross": false,
-    "rsi14": 30.504,
+    "rsi14": 30.5571,
     "macd": {
-      "line": -83.0481,
-      "signal": -66.0584,
-      "histogram": -16.9897
+      "line": -82.9523,
+      "signal": -66.0392,
+      "histogram": -16.9131
     },
     "bollinger": {
-      "upper": 4182.974,
-      "middle": 3986.93,
-      "lower": 3790.8859
+      "upper": 4182.755,
+      "middle": 3986.99,
+      "lower": 3791.2249
     },
-    "atr14_usd": 99.4714,
-    "atr14_idr_gram": 58455.0,
+    "atr14_usd": 100.0571,
+    "atr14_idr_gram": 58799.0,
     "pivots_usd": {
       "s2": 3810.9999,
       "s1": 3837.5999,
@@ -134,39 +134,39 @@
       "Agu": 2.77,
       "Sep": -1.91,
       "Okt": 0.64,
-      "Nov": 1.31,
+      "Nov": 1.32,
       "Des": 2.79
     }
   },
   "quantitative": {
     "rolling_correlation": {
       "30d": {
-        "dxy": -0.407,
+        "dxy": -0.411,
         "us10y": -0.193,
-        "ihsg": -0.106,
-        "usdidr": 0.085
+        "ihsg": -0.077,
+        "usdidr": 0.088
       },
       "90d": {
-        "dxy": -0.468,
+        "dxy": -0.47,
         "us10y": -0.226,
-        "ihsg": 0.043,
-        "usdidr": -0.02
+        "ihsg": 0.06,
+        "usdidr": -0.019
       }
     },
     "idr_gold_decomposition": {
       "30d": {
         "total_idr_pct": -7.52,
-        "world_gold_pct": -9.31,
-        "usdidr_pct": 1.97,
-        "share_from_world_gold_pct": 125.0,
-        "share_from_rupiah_pct": -25.0
+        "world_gold_pct": -9.28,
+        "usdidr_pct": 1.94,
+        "share_from_world_gold_pct": 124.6,
+        "share_from_rupiah_pct": -24.6
       },
       "90d": {
         "total_idr_pct": -4.72,
-        "world_gold_pct": -5.56,
-        "usdidr_pct": 0.89,
-        "share_from_world_gold_pct": 118.4,
-        "share_from_rupiah_pct": -18.4
+        "world_gold_pct": -5.53,
+        "usdidr_pct": 0.86,
+        "share_from_world_gold_pct": 117.8,
+        "share_from_rupiah_pct": -17.8
       }
     },
     "sentiment_model": {
@@ -181,33 +181,33 @@
       "backtest_20d_win_rate_pct": 69.2
     },
     "monte_carlo_forecast": {
-      "annualized_volatility_pct": 23.81,
+      "annualized_volatility_pct": 23.77,
       "horizon_7d": {
         "days": 7,
-        "bear_p10_idr_gram": 2092460.0,
-        "base_p50_idr_gram": 2202322.0,
-        "bull_p90_idr_gram": 2314141.0,
-        "bear_p10_usd": 3570.09,
-        "base_p50_usd": 3757.54,
-        "bull_p90_usd": 3948.32
+        "bear_p10_idr_gram": 2092764.0,
+        "base_p50_idr_gram": 2202444.0,
+        "bull_p90_idr_gram": 2314067.0,
+        "bear_p10_usd": 3571.59,
+        "base_p50_usd": 3758.77,
+        "bull_p90_usd": 3949.27
       },
       "horizon_30d": {
         "days": 30,
-        "bear_p10_idr_gram": 1939842.0,
-        "base_p50_idr_gram": 2168386.0,
-        "bull_p90_idr_gram": 2401700.0,
-        "bear_p10_usd": 3309.7,
-        "base_p50_usd": 3699.63,
-        "bull_p90_usd": 4097.71
+        "bear_p10_idr_gram": 1940417.0,
+        "base_p50_idr_gram": 2168602.0,
+        "bull_p90_idr_gram": 2401508.0,
+        "bear_p10_usd": 3311.59,
+        "base_p50_usd": 3701.02,
+        "bull_p90_usd": 4098.5
       },
       "horizon_180d": {
         "days": 180,
-        "bear_p10_idr_gram": 1563418.0,
-        "base_p50_idr_gram": 2031427.0,
-        "bull_p90_idr_gram": 2631758.0,
-        "bear_p10_usd": 2667.46,
-        "base_p50_usd": 3465.96,
-        "bull_p90_usd": 4490.23
+        "bear_p10_idr_gram": 1564655.0,
+        "base_p50_idr_gram": 2032096.0,
+        "bull_p90_idr_gram": 2631425.0,
+        "bear_p10_usd": 2670.3,
+        "base_p50_usd": 3468.05,
+        "bull_p90_usd": 4490.89
       }
     }
   },
@@ -1648,9 +1648,9 @@
       "date": "2026-11-18",
       "open": 3855.2,
       "high": 3859.3,
-      "low": 3767.7,
-      "close": 3770.0,
-      "idr_gram": 2209628.0
+      "low": 3759.5,
+      "close": 3771.2,
+      "idr_gram": 2209725.0
     }
   ],
   "economic_calendar": [
@@ -1677,6 +1677,36 @@
   ],
   "gold_news": [
     {
+      "title": "Banjir Insentif, BI Pede Suku Bunga 6% Tak Langsung Tekan Ekonomi RI",
+      "link": "https://www.cnbcindonesia.com/market/20261118153054-17-786349/banjir-insentif-bi-pede-suku-bunga-6-tak-langsung-tekan-ekonomi-ri",
+      "published": "Wed, 18 Nov 2026 16:50:00 +0700",
+      "source": "CNBC Indonesia"
+    },
+    {
+      "title": "Rupiah Ditutup Menguat, Dolar AS Turun ke Rp18.220",
+      "link": "https://www.cnbcindonesia.com/market/20261118144721-17-786323/rupiah-ditutup-menguat-dolar-as-turun-ke-rp18220",
+      "published": "Wed, 18 Nov 2026 15:05:28 +0700",
+      "source": "CNBC Indonesia"
+    },
+    {
+      "title": "Video: Demi Rupiah, Suku Bunga Acuan BI Rate Naik 25 bps Menjadi 6,00%",
+      "link": "https://www.cnbcindonesia.com/market/20261118143501-19-786315/video-demi-rupiah-suku-bunga-acuan-bi-rate-naik-25-bps-menjadi-600",
+      "published": "Wed, 18 Nov 2026 15:02:35 +0700",
+      "source": "CNBC Indonesia"
+    },
+    {
+      "title": "Bursa Cecar EMAS, Pembeli Cuma Satu, Kas Operasi Minus",
+      "link": "https://www.cnbcindonesia.com/market/20261118135952-17-786301/bursa-cecar-emas-pembeli-cuma-satu-kas-operasi-minus",
+      "published": "Wed, 18 Nov 2026 14:55:40 +0700",
+      "source": "CNBC Indonesia"
+    },
+    {
+      "title": "Tak Cuma Suku Bunga, BI Keluarkan Jurus Ini Amankan Rupiah dan Inflasi",
+      "link": "https://www.cnbcindonesia.com/market/20261118144710-17-786326/tak-cuma-suku-bunga-bi-keluarkan-jurus-ini-amankan-rupiah-inflasi",
+      "published": "Wed, 18 Nov 2026 14:50:53 +0700",
+      "source": "CNBC Indonesia"
+    },
+    {
       "title": "BI Rate Naik Jadi 6%, Bos BI: Demi Jaga Rupiah dan Inflasi!",
       "link": "https://www.cnbcindonesia.com/market/20261118142349-17-786311/bi-rate-naik-jadi-6-bos-bi-demi-jaga-rupiah-dan-inflasi",
       "published": "Wed, 18 Nov 2026 14:27:03 +0700",
@@ -1686,30 +1716,6 @@
       "title": "Rupiah Menguat ke Rp18.200/US$ Setelah BI Rate Naik Jadi 6%",
       "link": "https://www.cnbcindonesia.com/market/20261118140633-17-786302/rupiah-menguat-ke-rp18200-us--setelah-bi-rate-naik-jadi-6",
       "published": "Wed, 18 Nov 2026 14:24:54 +0700",
-      "source": "CNBC Indonesia"
-    },
-    {
-      "title": "Video: Indeks Dolar AS Menguat, Rupiah Bisa Anjlok ke Rp18.300 per USD",
-      "link": "https://www.cnbcindonesia.com/market/20261118131206-19-786281/video-indeks-dolar-as-menguat-rupiah-bisa-anjlok-ke-rp18300-per-usd",
-      "published": "Wed, 18 Nov 2026 13:36:41 +0700",
-      "source": "CNBC Indonesia"
-    },
-    {
-      "title": "Video: Harga Minyak Bergejolak - Emas Anjlok Ke Level Terendah Setahun",
-      "link": "https://www.cnbcindonesia.com/market/20261118115358-19-786248/video-harga-minyak-bergejolak--emas-anjlok-ke-level-terendah-setahun",
-      "published": "Wed, 18 Nov 2026 12:30:18 +0700",
-      "source": "CNBC Indonesia"
-    },
-    {
-      "title": "Video: Menanti Pengumuman BI Rate, IHSG Menguat Tapi Rupiah Melemah",
-      "link": "https://www.cnbcindonesia.com/market/20261118115359-19-786246/video-menanti-pengumuman-bi-rate-ihsg-menguat-tapi-rupiah-melemah",
-      "published": "Wed, 18 Nov 2026 12:01:55 +0700",
-      "source": "CNBC Indonesia"
-    },
-    {
-      "title": "Inflasi Medis Mengintai hingga 2027, OJK Wanti-Wanti Industri Asuransi",
-      "link": "https://www.cnbcindonesia.com/market/20261118103726-17-786202/inflasi-medis-mengintai-hingga-2027-ojk-wanti-wanti-industri-asuransi",
-      "published": "Wed, 18 Nov 2026 11:05:27 +0700",
       "source": "CNBC Indonesia"
     }
   ]
