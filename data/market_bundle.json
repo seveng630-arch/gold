@@ -1,35 +1,35 @@
 {
   "meta": {
     "brand": "DELANOGOLD",
-    "generated_at_wib": "2026-11-20 17:51:39 WIB",
-    "timestamp_unix": 1795171899
+    "generated_at_wib": "2026-11-20 22:21:42 WIB",
+    "timestamp_unix": 1795188102
   },
   "gold_spot": {
-    "xau_usd": 3593.6,
-    "change_pct": -2.49,
+    "xau_usd": 3564.3,
+    "change_pct": -3.29,
     "trend_status": "BEARISH",
-    "spot_idr_gram": 2109939.0,
+    "spot_idr_gram": 2092736.0,
     "source": "COMEX / Yahoo Finance (GC=F)"
   },
   "antam": {
-    "sell_1g": 2262000,
-    "buyback_1g": 2086000,
-    "spot_idr_gram": 2109939.0,
-    "premium_vs_spot_pct": 7.21,
-    "spread_rp": 176000,
-    "spread_pct": 7.78,
+    "sell_1g": 2243000,
+    "buyback_1g": 2068000,
+    "spot_idr_gram": 2092736.0,
+    "premium_vs_spot_pct": 7.18,
+    "spread_rp": 175000,
+    "spread_pct": 7.8,
     "denominations": {
-      "0.5": 1181000,
-      "1": 2262000,
-      "2": 4484000,
-      "5": 11160000,
-      "10": 22270000,
-      "100": 222000000,
-      "1000": 2217000000
+      "0.5": 1172000,
+      "1": 2243000,
+      "2": 4446000,
+      "5": 11065000,
+      "10": 22080000,
+      "100": 220100000,
+      "1000": 2198000000
     },
     "source": "PT Antam Tbk (Logam Mulia)",
     "status": "FALLBACK_ESTIMATE",
-    "updated_at": "2026-11-20T17:51:39.556107+07:00"
+    "updated_at": "2026-11-20T22:21:42.184925+07:00"
   },
   "indonesia_economy": {
     "ihsg": {
@@ -57,8 +57,8 @@
       "source": "FRED (DFII10)"
     },
     "dxy": {
-      "value": 103.87,
-      "change_pct": -0.03,
+      "value": 103.73,
+      "change_pct": -0.16,
       "source": "ICE DXY (DX-Y.NYB)"
     },
     "fed_funds_rate": {
@@ -75,11 +75,11 @@
       "date": "2026-10-01",
       "source": "FRED (CPIAUCSL)"
     },
-    "vix": 28.8,
-    "silver_usd": 42.69,
-    "gold_silver_ratio": 84.19,
-    "wti_oil_usd": 81.57,
-    "us_10y_nominal_yield": 5.05
+    "vix": 27.57,
+    "silver_usd": 41.96,
+    "gold_silver_ratio": 84.95,
+    "wti_oil_usd": 81.85,
+    "us_10y_nominal_yield": 4.98
   },
   "flows_and_positioning": {
     "cftc_cot": {
@@ -90,29 +90,29 @@
       "source": "CFTC COT Disaggregated/Legacy Report"
     },
     "etf_gld": {
-      "price": 335.18,
-      "change_pct": -1.76,
-      "volume": 10800400
+      "price": 324.76,
+      "change_pct": -3.11,
+      "volume": 6254778
     },
     "etf_iau": {
-      "price": 68.72,
-      "volume": 7041200
+      "price": 66.58,
+      "volume": 2309975
     }
   },
   "technicals": {
-    "sma50": 4112.426,
-    "sma200": 4445.0715,
+    "sma50": 4111.84,
+    "sma200": 4444.925,
     "golden_cross": false,
-    "rsi14": 23.7793,
+    "rsi14": 22.9014,
     "macd": {
-      "line": -114.7243,
-      "signal": -81.239,
-      "histogram": -33.4853
+      "line": -117.0616,
+      "signal": -81.7064,
+      "histogram": -35.3552
     },
     "bollinger": {
-      "upper": 4236.9334,
-      "middle": 3946.065,
-      "lower": 3655.1966
+      "upper": 4243.1372,
+      "middle": 3944.6,
+      "lower": 3646.0628
     },
     "atr14_usd": 106.9428,
     "atr14_idr_gram": 62790.0,
@@ -134,43 +134,43 @@
       "Agu": 2.77,
       "Sep": -1.91,
       "Okt": 0.64,
-      "Nov": 0.81,
+      "Nov": 0.73,
       "Des": 2.79
     }
   },
   "quantitative": {
     "rolling_correlation": {
       "30d": {
-        "dxy": -0.402,
-        "us10y": -0.152,
-        "ihsg": -0.075,
-        "usdidr": 0.084
+        "dxy": -0.36,
+        "us10y": -0.077,
+        "ihsg": -0.071,
+        "usdidr": 0.066
       },
       "90d": {
-        "dxy": -0.458,
-        "us10y": -0.186,
-        "ihsg": 0.077,
-        "usdidr": -0.03
+        "dxy": -0.439,
+        "us10y": -0.146,
+        "ihsg": 0.079,
+        "usdidr": -0.038
       }
     },
     "idr_gold_decomposition": {
       "30d": {
-        "total_idr_pct": -12.57,
-        "world_gold_pct": -14.25,
-        "usdidr_pct": 1.95,
-        "share_from_world_gold_pct": 114.4,
-        "share_from_rupiah_pct": -14.4
+        "total_idr_pct": -13.77,
+        "world_gold_pct": -14.95,
+        "usdidr_pct": 1.38,
+        "share_from_world_gold_pct": 109.3,
+        "share_from_rupiah_pct": -9.3
       },
       "90d": {
-        "total_idr_pct": -8.89,
-        "world_gold_pct": -10.52,
-        "usdidr_pct": 1.82,
-        "share_from_world_gold_pct": 119.4,
-        "share_from_rupiah_pct": -19.4
+        "total_idr_pct": -10.14,
+        "world_gold_pct": -11.25,
+        "usdidr_pct": 1.25,
+        "share_from_world_gold_pct": 111.6,
+        "share_from_rupiah_pct": -11.6
       }
     },
     "sentiment_model": {
-      "score": 39.3,
+      "score": 36.6,
       "weights": {
         "real_yield_10y": "30%",
         "dxy_momentum": "25%",
@@ -181,33 +181,33 @@
       "backtest_20d_win_rate_pct": 69.0
     },
     "monte_carlo_forecast": {
-      "annualized_volatility_pct": 24.94,
+      "annualized_volatility_pct": 26.06,
       "horizon_7d": {
         "days": 7,
-        "bear_p10_idr_gram": 1988794.0,
-        "base_p50_idr_gram": 2098282.0,
-        "bull_p90_idr_gram": 2209985.0,
-        "bear_p10_usd": 3387.65,
-        "base_p50_usd": 3574.14,
-        "bull_p90_usd": 3764.41
+        "bear_p10_idr_gram": 1956255.0,
+        "base_p50_idr_gram": 2068937.0,
+        "bull_p90_idr_gram": 2184172.0,
+        "bear_p10_usd": 3350.94,
+        "base_p50_usd": 3543.96,
+        "bull_p90_usd": 3741.34
       },
       "horizon_30d": {
         "days": 30,
-        "bear_p10_idr_gram": 1825354.0,
-        "base_p50_idr_gram": 2051176.0,
-        "bull_p90_idr_gram": 2282877.0,
-        "bear_p10_usd": 3109.25,
-        "base_p50_usd": 3493.9,
-        "bull_p90_usd": 3888.58
+        "bear_p10_idr_gram": 1788271.0,
+        "base_p50_idr_gram": 2020085.0,
+        "bull_p90_idr_gram": 2259133.0,
+        "bear_p10_usd": 3063.19,
+        "base_p50_usd": 3460.28,
+        "bull_p90_usd": 3869.75
       },
       "horizon_180d": {
         "days": 180,
-        "bear_p10_idr_gram": 1396308.0,
-        "base_p50_idr_gram": 1836883.0,
-        "bull_p90_idr_gram": 2409018.0,
-        "bear_p10_usd": 2378.42,
-        "base_p50_usd": 3128.89,
-        "bull_p90_usd": 4103.44
+        "bear_p10_idr_gram": 1350064.0,
+        "base_p50_idr_gram": 1798111.0,
+        "bull_p90_idr_gram": 2387132.0,
+        "bear_p10_usd": 2312.57,
+        "base_p50_usd": 3080.05,
+        "bull_p90_usd": 4089.0
       }
     }
   },
@@ -1649,8 +1649,8 @@
       "open": 3633.8,
       "high": 3638.1,
       "low": 3515.0,
-      "close": 3593.6,
-      "idr_gram": 2109704.0
+      "close": 3564.3,
+      "idr_gram": 2080814.0
     }
   ],
   "economic_calendar": [
@@ -1699,36 +1699,6 @@
       "link": "https://www.cnbcindonesia.com/market/20261120131858-17-786965/geger-skandal-baru-hantam-bank-raksasa-citi-ada-apa",
       "published": "Fri, 20 Nov 2026 13:23:44 +0700",
       "source": "CNBC Indonesia"
-    },
-    {
-      "title": "Rupiah Tembus Rp 18.270, Menabung Dolar AS Masih Menguntungkan?",
-      "link": "https://investasi.kontan.co.id/news/rupiah-tembus-rp-18270-menabung-dolar-as-masih-menguntungkan",
-      "published": "Fri, 20 Nov 2026 17:11:17 +0700",
-      "source": "Kontan Investasi"
-    },
-    {
-      "title": "Rupiah Melemah ke Rekor Terendah Sepanjang Masa, Simak Proyeksi Pekan Depan",
-      "link": "https://investasi.kontan.co.id/news/rupiah-melemah-ke-rekor-terendah-sepanjang-masa-simak-proyeksi-pekan-depan",
-      "published": "Fri, 20 Nov 2026 16:30:30 +0700",
-      "source": "Kontan Investasi"
-    },
-    {
-      "title": "Rupiah Spot Ditutup Melemah 0,09% ke Rp 18.270 per Dolar AS pada Jumat (20/11)",
-      "link": "https://investasi.kontan.co.id/news/rupiah-spot-ditutup-melemah-009-ke-rp-18270-per-dolar-as-pada-jumat-2011",
-      "published": "Fri, 20 Nov 2026 15:06:29 +0700",
-      "source": "Kontan Investasi"
-    },
-    {
-      "title": "Harga Emas Anjlok 8,5% Dalam Sepekan, Tekanan Diprediksi Masih Berlanjut Pekan Depan",
-      "link": "https://investasi.kontan.co.id/news/harga-emas-anjlok-85-dalam-sepekan-tekanan-diprediksi-masih-berlanjut-pekan-depan",
-      "published": "Fri, 20 Nov 2026 14:55:24 +0700",
-      "source": "Kontan Investasi"
-    },
-    {
-      "title": "Harga Emas Antam Turun Rp 11.000 & Buyback Anjlok Rp 78.000 Per Gram Hari Ini (20/11)",
-      "link": "https://investasi.kontan.co.id/news/harga-emas-antam-turun-rp-11000-buyback-anjlok-rp-78000-per-gram-hari-ini-2011",
-      "published": "Fri, 20 Nov 2026 10:06:16 +0700",
-      "source": "Kontan Investasi"
     }
   ]
 }
