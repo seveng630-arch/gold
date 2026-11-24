@@ -1,40 +1,40 @@
 {
   "meta": {
     "brand": "DELANOGOLD",
-    "generated_at_wib": "2026-11-24 14:54:22 WIB",
-    "timestamp_unix": 1795506862
+    "generated_at_wib": "2026-11-24 17:49:03 WIB",
+    "timestamp_unix": 1795517343
   },
   "gold_spot": {
-    "xau_usd": 3623.2,
-    "change_pct": -0.77,
+    "xau_usd": 3624.6,
+    "change_pct": -0.73,
     "trend_status": "BEARISH",
-    "spot_idr_gram": 2119566.0,
+    "spot_idr_gram": 2120385.0,
     "source": "COMEX / Yahoo Finance (GC=F)"
   },
   "antam": {
-    "sell_1g": 2272000,
-    "buyback_1g": 2095000,
-    "spot_idr_gram": 2119566.0,
-    "premium_vs_spot_pct": 7.19,
+    "sell_1g": 2273000,
+    "buyback_1g": 2096000,
+    "spot_idr_gram": 2120385.0,
+    "premium_vs_spot_pct": 7.2,
     "spread_rp": 177000,
     "spread_pct": 7.79,
     "denominations": {
       "0.5": 1186000,
-      "1": 2272000,
-      "2": 4504000,
-      "5": 11210000,
-      "10": 22370000,
-      "100": 223000000,
-      "1000": 2227000000
+      "1": 2273000,
+      "2": 4506000,
+      "5": 11215000,
+      "10": 22380000,
+      "100": 223100000,
+      "1000": 2228000000
     },
     "source": "PT Antam Tbk (Logam Mulia)",
     "status": "FALLBACK_ESTIMATE",
-    "updated_at": "2026-11-24T14:54:22.230459+07:00"
+    "updated_at": "2026-11-24T17:49:03.541312+07:00"
   },
   "indonesia_economy": {
     "ihsg": {
-      "value": 5206.04,
-      "change_pct": -0.19,
+      "value": 5241.59,
+      "change_pct": 0.49,
       "source": "BEI / Yahoo Finance (^JKSE)"
     },
     "bi_rate_pct": 6.0,
@@ -57,8 +57,8 @@
       "source": "FRED (DFII10)"
     },
     "dxy": {
-      "value": 104.32,
-      "change_pct": 0.0,
+      "value": 104.17,
+      "change_pct": -0.14,
       "source": "ICE DXY (DX-Y.NYB)"
     },
     "fed_funds_rate": {
@@ -75,10 +75,10 @@
       "date": "2026-10-01",
       "source": "FRED (CPIAUCSL)"
     },
-    "vix": 26.62,
-    "silver_usd": 42.29,
-    "gold_silver_ratio": 85.66,
-    "wti_oil_usd": 80.22,
+    "vix": 27.9,
+    "silver_usd": 41.87,
+    "gold_silver_ratio": 86.57,
+    "wti_oil_usd": 80.18,
     "us_10y_nominal_yield": 4.92
   },
   "flows_and_positioning": {
@@ -100,22 +100,22 @@
     }
   },
   "technicals": {
-    "sma50": 4082.66,
-    "sma200": 4430.7575,
+    "sma50": 4082.688,
+    "sma200": 4430.7645,
     "golden_cross": false,
-    "rsi14": 32.1243,
+    "rsi14": 32.1755,
     "macd": {
-      "line": -131.6138,
-      "signal": -99.3512,
-      "histogram": -32.2626
+      "line": -131.5021,
+      "signal": -99.3289,
+      "histogram": -32.1732
     },
     "bollinger": {
-      "upper": 4251.8108,
-      "middle": 3900.235,
-      "lower": 3548.6591
+      "upper": 4251.6491,
+      "middle": 3900.305,
+      "lower": 3548.9609
     },
-    "atr14_usd": 108.45,
-    "atr14_idr_gram": 63443.0,
+    "atr14_usd": 108.9,
+    "atr14_idr_gram": 63706.0,
     "pivots_usd": {
       "s2": 3492.8667,
       "s1": 3572.1333,
@@ -141,36 +141,36 @@
   "quantitative": {
     "rolling_correlation": {
       "30d": {
-        "dxy": -0.198,
+        "dxy": -0.195,
         "us10y": 0.068,
-        "ihsg": -0.008,
+        "ihsg": -0.009,
         "usdidr": -0.007
       },
       "90d": {
-        "dxy": -0.375,
+        "dxy": -0.373,
         "us10y": -0.08,
-        "ihsg": 0.09,
+        "ihsg": 0.088,
         "usdidr": -0.073
       }
     },
     "idr_gold_decomposition": {
       "30d": {
-        "total_idr_pct": -10.36,
-        "world_gold_pct": -11.8,
+        "total_idr_pct": -10.33,
+        "world_gold_pct": -11.77,
         "usdidr_pct": 1.63,
         "share_from_world_gold_pct": 114.8,
         "share_from_rupiah_pct": -14.8
       },
       "90d": {
-        "total_idr_pct": -11.53,
-        "world_gold_pct": -12.73,
+        "total_idr_pct": -11.5,
+        "world_gold_pct": -12.7,
         "usdidr_pct": 1.38,
         "share_from_world_gold_pct": 111.2,
         "share_from_rupiah_pct": -11.2
       }
     },
     "sentiment_model": {
-      "score": 52.3,
+      "score": 52.4,
       "weights": {
         "real_yield_10y": "30%",
         "dxy_momentum": "25%",
@@ -184,30 +184,30 @@
       "annualized_volatility_pct": 31.89,
       "horizon_7d": {
         "days": 7,
-        "bear_p10_idr_gram": 1964459.0,
-        "base_p50_idr_gram": 2103804.0,
-        "bull_p90_idr_gram": 2248073.0,
-        "bear_p10_usd": 3364.99,
-        "base_p50_usd": 3603.68,
-        "bull_p90_usd": 3850.8
+        "bear_p10_idr_gram": 1965257.0,
+        "base_p50_idr_gram": 2104641.0,
+        "bull_p90_idr_gram": 2248947.0,
+        "bear_p10_usd": 3366.36,
+        "base_p50_usd": 3605.11,
+        "bull_p90_usd": 3852.3
       },
       "horizon_30d": {
         "days": 30,
-        "bear_p10_idr_gram": 1769357.0,
-        "base_p50_idr_gram": 2053967.0,
-        "bull_p90_idr_gram": 2355215.0,
-        "bear_p10_usd": 3030.79,
-        "base_p50_usd": 3518.31,
-        "bull_p90_usd": 4034.33
+        "bear_p10_idr_gram": 1770160.0,
+        "base_p50_idr_gram": 2054859.0,
+        "bull_p90_idr_gram": 2356197.0,
+        "bear_p10_usd": 3032.17,
+        "base_p50_usd": 3519.84,
+        "bull_p90_usd": 4036.01
       },
       "horizon_180d": {
         "days": 180,
-        "bear_p10_idr_gram": 1298207.0,
-        "base_p50_idr_gram": 1843518.0,
-        "bull_p90_idr_gram": 2607563.0,
-        "bear_p10_usd": 2223.74,
-        "base_p50_usd": 3157.83,
-        "bull_p90_usd": 4466.59
+        "bear_p10_idr_gram": 1299136.0,
+        "base_p50_idr_gram": 1844754.0,
+        "bull_p90_idr_gram": 2609195.0,
+        "bear_p10_usd": 2225.34,
+        "base_p50_usd": 3159.94,
+        "bull_p90_usd": 4469.38
       }
     }
   },
@@ -1648,9 +1648,9 @@
       "date": "2026-11-24",
       "open": 3636.4,
       "high": 3676.7,
-      "low": 3612.7,
-      "close": 3623.2,
-      "idr_gram": 2115200.0
+      "low": 3606.4,
+      "close": 3624.6,
+      "idr_gram": 2116017.0
     }
   ],
   "economic_calendar": [
@@ -1677,9 +1677,15 @@
   ],
   "gold_news": [
     {
-      "title": "Rupiah Dibuka di Level Rp18.190 per Dolar AS Pagi Ini",
-      "link": "https://www.cnbcindonesia.com/market/20261124083734-17-787833/rupiah-dibuka-di-level-rp18190-per-dolar-as-pagi-ini",
-      "published": "Tue, 24 Nov 2026 09:14:31 +0700",
+      "title": "BSI (BRIS) Pede Nasabah Emas Tembus 2 Juta di Tahun Ini",
+      "link": "https://www.cnbcindonesia.com/market/20261124163823-17-788030/bsi--bris--pede-nasabah-emas-tembus-2-juta-di-tahun-ini",
+      "published": "Tue, 24 Nov 2026 16:42:16 +0700",
+      "source": "CNBC Indonesia"
+    },
+    {
+      "title": "Rupiah Parkir di Posisi Rp18.220 per Dolar AS Sore Ini",
+      "link": "https://www.cnbcindonesia.com/market/20261124150204-17-787988/rupiah-parkir-di-posisi-rp18220-per-dolar-as-sore-ini",
+      "published": "Tue, 24 Nov 2026 15:09:49 +0700",
       "source": "CNBC Indonesia"
     }
   ]
